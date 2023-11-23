@@ -48,7 +48,7 @@ function chrono()
         //================= Pour que cela s'affiche dans l'élément "time"
         document.getElementById("time").innerHTML = loc;
         //=================lancement du chrono
-    reglage = window.setTimeout("chrono();",9.2);
+    reglage = window.setTimeout("chrono();",9.3);
 } 
         
         
