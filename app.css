@@ -41,3 +41,11 @@ h2{
     color: #f92145;
     font-size: 50px;
 }
+
+span{
+    color: aqua;
+    font-weight: 700;
+}
+p{
+    color: white;
+}
