@@ -49,3 +49,7 @@ span{
 p{
     color: white;
 }
+.material-symbols-outlined {
+  color: black;
+  font-size: 80px;
+}
