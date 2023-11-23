@@ -10,7 +10,7 @@ function chrono()
         centi++;
         centi*10;//=======pour passer en dixièmes de sec
         //=== on remet à zéro quand on passe à 1seconde, 1min, 1heure, 1jour
-        if (centi > 9) {
+        if (centi > 99) {
             centi = 0;
             sec++;
         }
@@ -48,7 +48,7 @@ function chrono()
         //================= Pour que cela s'affiche dans l'élément "time"
         document.getElementById("time").innerHTML = loc;
         //=================lancement du chrono
-    reglage = window.setTimeout("chrono();",100);
+    reglage = window.setTimeout("chrono();",9.2);
 } 
         
         
