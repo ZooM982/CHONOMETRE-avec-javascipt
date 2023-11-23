@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(to right, blue , red);
+}
+.corps{
+    border-radius: 30px;
+    height: auto;
+    background-color: #f0eeee;
+    margin-top: 100px;
+}
+button{
+ width: 150px;
+ height: 50px;
+ color: #FFF;
+ border: none;
+ background-color: #f92145;
+ margin: 50px;
+}
+#parametre{
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+/* .un{
+    background-color: rgb(4, 208, 4);
+}
+
+.deux{
+    background-color: rgb(115, 115, 249);
+}
+
+.trois{
+    background-color: rgb(255, 57, 57);
+} */
+
+h2{
+    font-weight: 900;
+    padding: 50px;
+}
+
+#time{
+    color: #f92145;
+    font-size: 50px;
+}
